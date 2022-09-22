@@ -23,6 +23,10 @@ public class Altar : MonoBehaviour
     //   OBS: nome pode ser qualquer coisa
     public GameObject ativador;
 
+    // Bau com letra maiúscula = tipo da informação
+    // bau com letra minúscula = nome da propriedade/variável
+    public Bau bau;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,7 +45,10 @@ public class Altar : MonoBehaviour
         if (col.gameObject == ativador)
         {
             // Exibe o nome do objeto em questão
-            print(col.name);
+            // print(col.name);
+
+            // Executamos o método Abrir() do script Bau
+            bau.Abrir();
         }
     }
 }

@@ -10521,6 +10521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ativador: {fileID: 1480697026}
+  bau: {fileID: 2103910482}
 --- !u!1001 &1877928899
 PrefabInstance:
   m_ObjectHideFlags: 0
