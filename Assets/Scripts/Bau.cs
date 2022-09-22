@@ -10,6 +10,12 @@ public class Bau : MonoBehaviour
     - Ao passar em cima desse item, ele é coletado
     */
 
+    // Componente SpriteRenderer
+    public SpriteRenderer spriteRend;
+
+    // Imagem do Baú Aberto
+    public Sprite imagemBauAberto;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +30,8 @@ public class Bau : MonoBehaviour
 
     public void Abrir()
     {
-        print("Abrir Baú!");
+        // print("Abrir Baú!");
+
+        spriteRend.sprite = imagemBauAberto;
     }
 }
