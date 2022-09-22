@@ -13,6 +13,16 @@ public class Altar : MonoBehaviour
     - Ao passar em cima desse item, ele é coletado
     */
 
+    // Como declarar propriedades?
+    // public -> Faz com que a Unity veja essa informação
+    //   OBS: Poderia ser private, public ou não ter nada
+    // GameObject -> Tipo da informação
+    //   OBS: tipo deve ser algo válido para o C# (string, int,
+    //        ou algum tipo da Unity como o GameObject, Transform, etc)
+    // ativador -> nome da nossa informação (para usarmos depois)
+    //   OBS: nome pode ser qualquer coisa
+    public GameObject ativador;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +37,11 @@ public class Altar : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        print(col.name);
+        // Se o col.gameObject for igual ao objeto do ativador
+        if (col.gameObject == ativador)
+        {
+            // Exibe o nome do objeto em questão
+            print(col.name);
+        }
     }
 }
