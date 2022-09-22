@@ -1615,8 +1615,8 @@ Transform:
   - {fileID: 1002804452}
   - {fileID: 1949553114}
   - {fileID: 856778194}
-  - {fileID: 1286808905}
   - {fileID: 110641086}
+  - {fileID: 1286808905}
   - {fileID: 901336220}
   - {fileID: 1142123154}
   - {fileID: 1496139751}
@@ -1908,7 +1908,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
