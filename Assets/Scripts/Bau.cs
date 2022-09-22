@@ -16,6 +16,9 @@ public class Bau : MonoBehaviour
     // Imagem do Baú Aberto
     public Sprite imagemBauAberto;
 
+    // Item a ser coletado
+    public GameObject item;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +35,10 @@ public class Bau : MonoBehaviour
     {
         // print("Abrir Baú!");
 
+        // Altera a imagem do baú
         spriteRend.sprite = imagemBauAberto;
+
+        // Exibir o item
+        item.SetActive(true);
     }
 }

@@ -11174,6 +11174,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRend: {fileID: 2103910481}
   imagemBauAberto: {fileID: 21300040, guid: 29c9cded5e558164aaf8c9bf08aa1510, type: 3}
+  item: {fileID: 1178547263}
 --- !u!1001 &2107956046
 PrefabInstance:
   m_ObjectHideFlags: 0
